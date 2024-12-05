@@ -1,0 +1,49 @@
+.navbar{
+    background-color: rgba(28, 27, 25, 1);
+    border-radius: 8px;
+    margin: 30px;
+
+    @media (max-width: 600px) {
+        margin: 15px;
+    }
+
+    .navbar-contain{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        color: rgba(238, 234, 225, 1);
+        text-transform: uppercase;
+        font-family: "Poppins";
+
+        h4{
+            font-family: "Trail";
+            padding-left: 30px;
+            font-size: 22px;
+            margin: 0px;
+        }
+
+        ul{
+            display: flex;
+            gap: 30px;
+
+            li{
+                list-style: none;
+            }
+
+            @media (max-width: 800px) {
+                display: none;
+            }
+        }
+
+        button{
+            background-color: rgba(238, 234, 225, 1);
+            border: none;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: "Poppins";
+        }
+    }
+}
