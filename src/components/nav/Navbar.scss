@@ -73,11 +73,15 @@
         input{
             display: block;
             margin-bottom: 30px;
-            width: 100%;
+            width: 90%;
             padding: 10px;
             border-radius: 4px;
             outline: none;
             border: 1px solid rgba(238, 234, 225, 1);
+
+        }
+        @media (max-width: 800px) {
+            padding: 60px 40px;
         }
         button{
             background-color: rgba(28, 27, 25, 1);
